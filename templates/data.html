@@ -1,0 +1,13 @@
+<html>
+    <title>Extracted Data</title>
+    <h2> Extracted Details are as follows:</h2>
+    <p>Name:{{name}}</p>
+    <p>Date of Birth: {{dob}}</p>
+    <p>Id number:{{aadhaarno}}</p>
+    <p>Gender:{{gender}}</p>
+    <div>
+        <img src="{{url_for('display_face',filename=filename)}}">
+    </div>
+    <div> <img src="{{ url_for('display_image', filename=filename) }}">
+    </div>
+    </html>
